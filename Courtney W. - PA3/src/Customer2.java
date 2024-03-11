@@ -4,12 +4,8 @@
 //Instructor: Daniel Mejia
 //Assignment Name: Programming Assignment 2
 //Lab Description: Program to maintain customer's money in bank.
-/*Honesty Statement: This work is to be done individually. It is not permitted to share, reproduce, or alter any
-part of this assignment for any purpose. Students are not permitted from sharing code,
-uploading this assignment online in any form, or viewing/receiving/modifying code
-written from anyone else. This assignment is part of an academic course at The
-University of Texas at El Paso and a grade will be assigned for the work produced
-individually by the student*/
+
+import java.security.SecureRandom;
 import java.util.*;
 import java.io.*;
 
@@ -371,7 +367,7 @@ public class Customer2 {
      */
     public void newCustomer(String first, String last){
 
-        Random randCred = new Random();
+        Random randCred = new SecureRandom();
         String address;
         String city;
         String state;
